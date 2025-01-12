@@ -7,37 +7,45 @@
     <title>Tailwind Experiments</title>
 
 </head>
-<body class="bg-[#313337]">
-<div class="flex flex-col items-center justify-center h-screen">
-    <div class="flex flex-col items-center py-10">
+<body class="bg-[#1b1d21]">
+<div class="flex flex-col items-center justify-between py-9 h-screen w-screen">
+    <div class="flex flex-col items-center">
         <img src="assets/Attio_logo.svg" alt="Attio_logo">
     </div>    
     <div class="flex flex-col items-center justify-center">
-        <div class="flex flex-col py-9 px-9 gap-6 rounded-xl border border-[#4f535a]">
-            <div class="text-2xl text-stone-200 font-bold w-full text-center">Sign in to your account</div>
-            <div class="flex flex-col gap-2  ">
-                <label for="email" class="text-sm text-stone-300 font-semibold ">Email</label>
-                <input type="text" placeholder="Enter your work email address" class = "bg-[#313337] py-2 rounded-md border border-[#4f535a] px-3 text-white focus:border-blue-500">
-            </div>
-            <div class="flex flex-col gap-2  ">
-                <label for="email" class="text-sm text-stone-300 font-semibold ">Password</label>
-                <input type="text" placeholder="Enter your password" class = "bg-[#313337] py-2 rounded-md border border-[#4f535a] px-3 text-white focus:border-blue-500 ">
-            </div>
-            <button class="bg-blue-700 text-white py-2 px-4 rounded-lg w-full hover:bg-blue-800">Continue</button>
+        <div class="flex flex-col gap-6 w-96">
+            <div class="text-2xl text-stone-200 font-bold w-full text-center">Sign in </div>
             <div class=" items-center justify-center">
-                <button class="px-4 py-2 border flex gap-2 border-slate-200 dark:border-slate-700 rounded-lg text-slate-700 dark:text-slate-200 hover:border-slate-400 dark:hover:border-slate-500 hover:text-slate-900 dark:hover:text-slate-300 hover:shadow transition duration-150 w-full justify-center  ">
-                    <img class="w- h-6" src="https://www.svgrepo.com/show/475656/google-color.svg" loading="lazy" alt="google logo">
-                    <span class="text-slate-100">Login with Google</span>
+                <button class="px-4 py-2 flex gap-2 border border-[#313337]  dark:border-[#313337] rounded-xl text-slate-700 dark:text-slate-200 hover:border-slate-400 dark:hover:border-slate-500 hover:text-slate-900 dark:hover:text-slate-300 hover:shadow transition duration-150 w-full justify-center  ">
+                    <img class="w-6 h-6" src="https://www.svgrepo.com/show/475656/google-color.svg" loading="lazy" alt="google logo">
+                    <span class="text-slate-100 font-medium">Sign in with Google</span>
                 </button>
             </div>
+            <hr class="border-[#2d3541]">
+            <div class="flex flex-col gap-2  ">
+                <input type="text" placeholder="Enter your work email address" class = "bg-[#1b1d21] py-2 rounded-xl border border-[#313337] px-3 text-white focus:border-blue-500">
+            </div>
+            <button class="bg-blue-600 text-white text-sm font-medium py-2 px-4 rounded-xl w-full hover:bg-blue-800">Continue</button>
+            
         </div>
         
     </div>
-    <div class="text-center w-80 ">        
-        <p class="text-gray-400 text-sm mt-8  w-full">By proceeding you acknowledge that you have read, understood and agree to our <a href="" class="text-gray-400 text-sm underline underline-offset-4 ">Terms and Conditions.</a>
-        </p>         
-        
+    <div class="flex flex-col gap-6 items-center w-96">
+        <div class="text-center">        
+            <p class="text-gray-400 text-sm">By proceeding you acknowledge that you have read, understood and agree to our <a href="" class="text-gray-400 text-sm underline underline-offset-4 ">Terms and Conditions.</a>
+            </p>       
+            
+        </div>
+    
+        <div class="flex flex-row justify-between items-center w-full">        
+            <p class="text-gray-400 text-sm">© 2025 Attio Limited</p>    
+            <a href="" class="text-gray-400 text-sm underline underline-offset-4 ">Terms and Conditions.</a>
+            <a href="" class="text-gray-400 text-sm underline underline-offset-4 ">Support</a>
+            
+        </div>
+
     </div>
+    
 </div>
 </body>
 </html>
