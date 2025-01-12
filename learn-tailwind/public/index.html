@@ -7,25 +7,25 @@
     <title>Tailwind Experiments</title>
 
 </head>
-<body class="flex-col bg-gray-950 h-screen justify-center items-center">
+<body class="bg-[#313337]">
+<div class="flex flex-col items-center justify-center h-screen">
     <div class="flex flex-col items-center py-10">
         <img src="assets/Attio_logo.svg" alt="Attio_logo">
-    </div>
-    
+    </div>    
     <div class="flex flex-col items-center justify-center">
-        <div class="flex flex-col py-9 px-9 gap-6 w- bg-gray-900 rounded-xl shadow-2xl">
+        <div class="flex flex-col py-9 px-9 gap-6 rounded-xl border border-[#4f535a]">
             <div class="text-2xl text-stone-200 font-bold w-full text-center">Sign in to your account</div>
             <div class="flex flex-col gap-2  ">
                 <label for="email" class="text-sm text-stone-300 font-semibold ">Email</label>
-                <input type="text" class = "bg-gray-800 py-2 rounded-md border-gray-700 px-3 text-white focus:border-blue-500 ">
+                <input type="text" placeholder="Enter your work email address" class = "bg-[#313337] py-2 rounded-md border border-[#4f535a] px-3 text-white focus:border-blue-500">
             </div>
             <div class="flex flex-col gap-2  ">
                 <label for="email" class="text-sm text-stone-300 font-semibold ">Password</label>
-                <input type="text" class = "bg-gray-800 py-2 rounded-md border-gray-700 px-3 text-white focus:border-blue-500 ">
+                <input type="text" placeholder="Enter your password" class = "bg-[#313337] py-2 rounded-md border border-[#4f535a] px-3 text-white focus:border-blue-500 ">
             </div>
             <button class="bg-blue-700 text-white py-2 px-4 rounded-lg w-full hover:bg-blue-800">Continue</button>
-            <div class="flex items-center justify-center">
-                <button class="px-4 py-2 border flex gap-2 border-slate-200 dark:border-slate-700 rounded-lg text-slate-700 dark:text-slate-200 hover:border-slate-400 dark:hover:border-slate-500 hover:text-slate-900 dark:hover:text-slate-300 hover:shadow transition duration-150">
+            <div class=" items-center justify-center">
+                <button class="px-4 py-2 border flex gap-2 border-slate-200 dark:border-slate-700 rounded-lg text-slate-700 dark:text-slate-200 hover:border-slate-400 dark:hover:border-slate-500 hover:text-slate-900 dark:hover:text-slate-300 hover:shadow transition duration-150 w-full justify-center  ">
                     <img class="w- h-6" src="https://www.svgrepo.com/show/475656/google-color.svg" loading="lazy" alt="google logo">
                     <span class="text-slate-100">Login with Google</span>
                 </button>
@@ -33,5 +33,11 @@
         </div>
         
     </div>
+    <div class="text-center w-80 ">        
+        <p class="text-gray-400 text-sm mt-8  w-full">By proceeding you acknowledge that you have read, understood and agree to our <a href="" class="text-gray-400 text-sm underline underline-offset-4 ">Terms and Conditions.</a>
+        </p>         
+        
+    </div>
+</div>
 </body>
 </html>
